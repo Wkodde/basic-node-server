@@ -43,6 +43,7 @@ app.use((err, req, res, next) => {
 	res.status(404).json(err).end()	
 })
 
+//process.env.PORT Wordt gebruikt om de poort op te halen die vooraf in de config is aangeven
 const port = process.env.PORT || 3000
 
 app.listen(port, () => {

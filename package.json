@@ -1,7 +1,7 @@
 {
-  "name": "les-2",
+  "name": "basic-node-server",
   "version": "1.0.0",
-  "description": "Mijn eerste node server.",
+  "description": "A basic node server, that can be used to start a new project.",
   "main": "server.js",
   "scripts": {
     "test-original": "echo \"Error: no test specified\" && exit 1",
@@ -10,18 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rschellius/programmeren4-nodeserver.git"
+    "url": "git+https://github.com/Wkodde/basic-node-server.git"
   },
   "keywords": [
     "node",
     "express"
   ],
-  "author": "Robin Schellius",
+  "author": "Wouter Kodde",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rschellius/programmeren4-nodeserver/issues"
-  },
-  "homepage": "https://github.com/rschellius/programmeren4-nodeserver#readme",
+  "homepage": "https://github.com/Wkodde/basic-node-server#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "chai": "^4.1.2",
